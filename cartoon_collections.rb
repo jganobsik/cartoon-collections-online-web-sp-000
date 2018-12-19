@@ -25,5 +25,9 @@ def find_the_cheese(list)
     return cheese_types[0]
   elsif list.include?(cheese_types[1])
     return cheese_types[1]
+  elsif list.include?(cheese_types[2])
+    return cheese_types[2]
+  else return NIL
+  end
 end
 
