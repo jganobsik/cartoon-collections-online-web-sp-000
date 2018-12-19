@@ -23,7 +23,7 @@ def find_the_cheese(list)
   
   if list.include?(cheese_types[0])
     return cheese_types[0]
-  elsif 
+  elsif list.include?(cheese_types[1])
     return cheese_types[0]
 end
 
